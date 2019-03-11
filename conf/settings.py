@@ -55,7 +55,7 @@ SITE_SETTINGS_KEY = '6H3ZgnNqPOGB4yfVxxfnmcFmUjjff0AC03PDcmbd3AK0n45YE4hBcRZk0G3
 # are actually hosted on this server.
 # If this server uses a wildcard DNS record then you can prefix the domain
 # listed here with a '.' to match all subdomains ('.example.com').
-ALLOWED_HOSTS = ['example.com', 'www.example.com','68.183.142.97']
+ALLOWED_HOSTS = ['example.com', 'www.example.com','68.183.142.97', 'isfgs.org','www.isfgs.org']
 if DEBUG:
     ALLOWED_HOSTS += ['localhost', '127.0.0.1', '[::1]']
 
