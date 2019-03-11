@@ -64,8 +64,8 @@ if DEBUG:
 DATABASES['default']['HOST'] = 'localhost'
 DATABASES['default']['PORT'] = 5432
 DATABASES['default']['USER'] = 'developer'
-#DATABASES['default']['PASSWORD'] = 'tolu123321'
-#DATABASES['default']['NAME'] = 'mysite'
+DATABASES['default']['PASSWORD'] = 'tolu123321'
+DATABASES['default']['NAME'] = 'mysite'
 
 # This must be set to the time zone used by PostgreSQL, which defaults to the
 # system time zone configured in /etc/timezone.
