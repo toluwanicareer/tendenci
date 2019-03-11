@@ -21,7 +21,7 @@ from tendenci.settings import *
 # To enable verbose error pages, debug logging, and other features that are
 # useful for development/testing but should not be enabled on live sites,
 # uncomment this setting.
-#DEBUG = True
+DEBUG = True
 
 if DEBUG:
     disable_template_cache()
@@ -46,8 +46,8 @@ if DEBUG:
 # at https://www.grc.com/passwords.htm (Use the
 # "63 random alpha-numeric characters" string, and refresh the page to get an
 # additional string.)
-SECRET_KEY = ''
-SITE_SETTINGS_KEY = ''
+SECRET_KEY = 'LUbH6eoVSe4Ya5FUWiRRz5BB9tMa7S0tOIRcPSDnbZnQ6beQwTpDOZSviGvsuSV'
+SITE_SETTINGS_KEY = '6H3ZgnNqPOGB4yfVxxfnmcFmUjjff0AC03PDcmbd3AK0n45YE4hBcRZk0G337Al'
 
 # This must be set to a list of fully qualified domain names that are valid for
 # this site.  Connections which request any other name will be rejected.
@@ -55,17 +55,17 @@ SITE_SETTINGS_KEY = ''
 # are actually hosted on this server.
 # If this server uses a wildcard DNS record then you can prefix the domain
 # listed here with a '.' to match all subdomains ('.example.com').
-ALLOWED_HOSTS = ['example.com', 'www.example.com']
+ALLOWED_HOSTS = ['example.com', 'www.example.com','68.183.142.97']
 if DEBUG:
     ALLOWED_HOSTS += ['localhost', '127.0.0.1', '[::1]']
 
 # Tendenci uses the following PostgreSQL database connection settings by
 # default.  Uncomment and configure settings here to override the defaults.
-#DATABASES['default']['HOST'] = 'localhost'
-#DATABASES['default']['PORT'] = 5432
-#DATABASES['default']['USER'] = 'tendenci'
-#DATABASES['default']['PASSWORD'] = 'tendenci'
-#DATABASES['default']['NAME'] = 'tendenci'
+DATABASES['default']['HOST'] = 'localhost'
+DATABASES['default']['PORT'] = 5432
+DATABASES['default']['USER'] = 'developer'
+#DATABASES['default']['PASSWORD'] = 'tolu123321'
+#DATABASES['default']['NAME'] = 'mysite'
 
 # This must be set to the time zone used by PostgreSQL, which defaults to the
 # system time zone configured in /etc/timezone.
@@ -73,7 +73,7 @@ if DEBUG:
 # sudo -u postgres psql -c "ALTER ROLE $DB_USER SET timezone TO 'US/Eastern';"
 # A list of time zone names can be found at
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-TIME_ZONE = 'US/Central'
+TIME_ZONE = 'Etc/UTC'
 
 
 # ---------------------------------------------------------------------------- #
