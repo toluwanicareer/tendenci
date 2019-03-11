@@ -275,8 +275,8 @@ ROOT_URLCONF = 'conf.urls'
 # messages to /var/log/mysite/app.log)
 
 # To change the log file names:
-#set_app_log_filename('/var/log/mysite/app.log')
-#set_debug_log_filename('/var/log/mysite/debug.log')
+set_app_log_filename('/home/log/mysite/app.log')
+set_debug_log_filename('/home/log/mysite/debug.log')
 
 # To change the log level for the app.log file:
 # (Valid levels are: 'DEBUG' 'INFO' 'WARNING' 'ERROR' 'CRITICAL')
