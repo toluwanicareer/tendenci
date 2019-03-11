@@ -1,0 +1,1 @@
+/home/developer/mysite/lib/python3.6/site-packages/tendenci/themes/t8-base/static/js/admin/corpmembershipapp_tabular_inline_ordering.js

@@ -1,0 +1,1 @@
+/home/developer/mysite/lib/python3.6/site-packages/django_admin_bootstrapped/static/admin/js/jquery.sortable.js

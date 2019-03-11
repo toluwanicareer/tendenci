@@ -1,0 +1,1 @@
+/home/developer/mysite/lib/python3.6/site-packages/tendenci/themes/t8-base/static/js/admin/rotator-story-inline-ordering.js

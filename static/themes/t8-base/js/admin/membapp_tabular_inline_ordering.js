@@ -1,0 +1,1 @@
+/home/developer/mysite/lib/python3.6/site-packages/tendenci/themes/t8-base/static/js/admin/membapp_tabular_inline_ordering.js
